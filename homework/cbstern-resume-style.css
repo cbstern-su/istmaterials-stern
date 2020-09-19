@@ -1,0 +1,56 @@
+* {
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    padding: 4px;
+    margin: 15px;
+    color: #1a1919;
+    background-color:whitesmoke;
+}
+h1 {
+    color: #1a1919;
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 545px;
+    background-image: url("bg-gradient.png");
+    padding: 30px;
+}
+h2 {
+    color: #a5bad5;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+}
+h3 {
+    font-weight: 600px
+}
+body {
+    font-size: 14px;
+    border: 10px solid #1a1919;
+}
+p {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+ol {
+    list-style-type: none;
+    line-height:.2;
+}
+ul {
+    line-height: .2;
+}
+.contact, a {
+    word-spacing: 3px;
+    letter-spacing: 1.2px;
+}
+.skills {
+    line-height: 1.5;
+}
+.blue {
+    color: #a5bad5;
+    font-style: italic;
+}
+.beige {
+    color: #cfc9a5;
+    font-style: italic;
+}
