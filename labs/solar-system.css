@@ -1,0 +1,30 @@
+main {
+    width: 75%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 1em;
+}
+section {
+    margin: 1em auto;
+}
+article.card {
+    display: inline-block;
+    padding: 1em;
+    width: 30%;
+}
+article.card img {
+    width: 100%;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: orange;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: gray; 
+}

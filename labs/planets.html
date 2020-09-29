@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" type="text/css" href="solar-system.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Planets Lab</title>
+    <title>Planets</title>
+
 </head>
+
 <body>
     <main>
-        <h1>Week 3.01 Planets Lab</h1>
-        <!--
-            ToDo: Add a link to go back to the main solar system page
-        -->
-        <a href="howto.html">Main Solar System Page</a>
-        <table>
-            <thead>
-                <tr>
-                    <th>Planet</th>
-                    <th>More Information</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Mercury</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Mercury_(planet)"target="_blank">More Information</a></td>
-                </tr>
-                <tr>
-                    <td>Venus</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Venus"target="_blank">More Information</a></td>
-                </tr>
-                <tr>
-                    <td>Earth</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Earth"target="_blank">More Information</a></td>
-                </tr>
-                <tr>
-                    <td>Mars</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Mars"target="_blank">More Information</a></td>
-                </tr>
-                <tr>
-                    <td>Jupiter</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Jupiter"target="_blank">More Information</a></td>
-                </tr>
-                <tr>
-                    <td>Saturn</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Saturn"target="_blank">More Information</a></td>
-                </tr>
-                <tr>
-                    <td>Uranus</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Uranus"target="_blank">More Information</a></td>
-                </tr>
-                <tr>
-                    <td>Neptune</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Neptune"target="_blank">More Information</a></td>
-                </tr>
-                <!-- ToDo: Add rows for the rest of the planets, and link them to their page on Wikipedia -->
-            </tbody>
-        </table>
+        <!-- Create a 3x3 grid with images of the planets. The planet images are all in the images folder.
+
+        You should use flex box to create the grid 
+        Step 1:
+        - Create a container 'div'
+        - Set its display property to 'inline-block'
+
+        Step 2:
+        - Since we want a 3x3 grid start by adding 3 child elements. Each element will contain an image of one of the planet
+
+        Step 3:
+        - See how the page looks.
+
+        Step 4:
+        - Repeat Steps 1, 2 and 3 two more times
+
+        Step 5:
+        - Refactor the CSS code to use classes
+         -->
+         <h1>Our Solar System</h1>
+         <section>
+             <article class="card">
+                 <img src="images/mercury.jpg" alt="Mercury"/>
+                 <h2>Mercury</h2>
+             </article>
+             <article class="card">
+                <img src="images//venus.jpg" alt="Venus"/>
+                <h2>Venus</h2>
+            </article>
+            <article class="card">
+                <img src="images//earth.jpg" alt="Earth"/>
+                <h2>Earth</h2>
+            </article>
+            <article class="card">
+                <img src="images/mars.jpg" alt="Mars"/>
+                <h2>Mars</h2>
+            </article>
+            <article class="card">
+                <img src="images/jupiter.jpg" alt="Jupiter"/>
+                <h2>Jupiter</h2>
+            </article>
+            <article class="card">
+                <img src="images/saturn.jpg" alt="Saturn"/>
+                <h2>Saturn</h2>
+            </article>
+            <article class="card">
+                <img src="images/neptune.jpg" alt="Neptune"/>
+                <h2>Neptune</h2>
+            </article>
+            <article class="card">
+                <img src="images/uranus.jpg" alt="Uranus"/>
+                <h2>Uranus</h2>
+            </article>
+            <article class="card">
+                <img src="images/pluto.jpg" alt="Pluto"/>
+                <h2>Pluto</h2>
+            </article>
+         </section>
     </main>
 </body>
+
 </html>
