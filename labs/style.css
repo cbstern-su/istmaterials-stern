@@ -1,42 +1,21 @@
-body {
-    background-color:#ccc;   
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+/* week 05-02 lab */
+* {
+    font-family: 'Montserrat', Verdana, Arial, sans-serif;
 }
-h1 {
-    font-size: 28px;
+.company-1 {
+    background-image: url(./images/company-name-1.png);
+    background-position-x: 90%; 
+    background-repeat: no-repeat; 
 }
-h1.orange {
-    /* your properties here */
-    color: orangered;
-    font-size: 42px;
-    text-align: center;
+.company-2 {
+    background-image: url(./images/company-name-2.png);
+    background-position-x: 90%; 
+    background-repeat: no-repeat; 
 }
-thead {
-    /* your properties here */
-    background-color: #eaeaea;
-    color: #333;
+.jumbotron {
+    background: #ccc;
+    height: 377px;
+    background-image: url(./images/silhouette.png);
+    background-position-x: 90%; 
+    background-repeat: no-repeat; 
 }
-tbody {
-    background-color: #eaeaea;
-    color: #333;
-}
-td{
-    font-size: 16px;
-    color: blue;
-    padding: .5em;
-}
-td.green {
-    font-size: 16px;
-    color: green;
-    padding: .5em;
-}
-
-
-/* 
-  Quick Lookup Guide
-- Change font color     => color: red;
-- Change font size      => font-size: 15px;
-- Text align            => text-align: center
-- Background color      => background-color: blue
-- Select table header row as table>thead>tr { your properties go here }
-*/
