@@ -1,0 +1,337 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: #003049;
+    background-color: whitesmoke;
+}
+.site-name-banner {
+    font-size: 40px;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+}
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+
+}
+h4 {
+    font-size: 20px;
+    padding-right: 3em;
+}
+h5 {
+    font-size: 18px;
+}
+p {
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+.logo {
+   flex: 1; 
+   padding: 1em;
+}
+footer {
+    color: #eae2b7;
+    text-align: center;
+    line-height: 20px;
+    width: 100%;
+    margin-top: 2em;
+    border: 10px solid #003049;
+    background-color: #003049;
+}
+.search {
+    flex: 1; 
+    text-align: right; 
+    padding: 5% 0;
+}
+.social {
+    flex: 1; 
+    text-align:center; 
+    padding: 5% 0;
+}
+nav {
+    background-color:#003049;
+    width: 100%;
+    padding-bottom: 4em; 
+}
+ul.nav {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: transparent;
+}
+li.nav {
+    width: 20%;
+    float: left;
+    margin: 2.5%;
+    background-color: #003049;
+}
+.nav {
+    background-color: transparent;
+}
+a:hover {
+    color: #f77f00;
+}
+a {
+    color: #eae2b7;
+    text-decoration: none;
+    background-color: transparent;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.col {
+    flex: 1;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+img {
+    max-width: 60%;
+    height: auto;   
+}
+/*.bg-image {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/sukkot-5.jpg");
+    opacity: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.bg-image-2 {
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/mega-shabbat-6.jpg");
+    opacity: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block
+}
+.bg-image-3 {
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/food-2.jpg");
+    opacity: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block
+}   
+.bg-text, .bg-text-2, .bg-text-3 {
+    background-color: transparent;
+    color: white;
+    width: 100%; 
+    padding: 3em;
+    margin-top: 4em;
+    margin: 0 auto;
+    text-align: center;
+}
+h1.banner, h2.banner {
+      background-color: transparent;
+      color: white;
+      font-size: 60px;
+      font-weight: 800;
+}*/
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/sukkot-5.jpg");
+    opacity: 80%;
+    height: 800px;
+    width: 1200px;
+    margin-left: 7em;
+}
+.jumbotron-2 {
+    height: 683px;
+    width: 1024px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/mega-shabbat-6.jpg");
+    opacity: 80%;
+    margin-left: 13em;
+}
+.jumbotron-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/food-2.jpg");
+    opacity: 80%;
+    height: 683px;
+    width: 1024px;
+    margin-left: 13em;
+}
+.event-type {
+    padding: 2em;
+    margin: 2em;
+    border: 2px solid #eae2b7;
+    border-radius: 10px;
+}
+/*.meals-1 {
+    display: flex;
+    flex: 1;
+    width: 45%; 
+    height: auto;
+    padding: 1em;
+    float: left;
+    margin: 25px;
+    border: 2px solid #eae2b7;
+    border-radius: 10px;
+}
+.course {
+    width: 50%;
+    line-height: 20px;
+    padding: 5px;
+}*/
+.misc {
+    flex: 2;
+    width: 40%;
+    float: right;
+    margin-right: 6em;
+    margin-top: -80em;
+    padding: 14px;
+    border: 2px solid #eae2b7;
+    border-radius: 10px;
+}
+aside { 
+    padding: 2em;
+    width: 50%;
+    text-align: center;
+    border: 2px solid #eae2b7;
+    border-radius: 10px;
+}
+.connect-1, .connect-2 {
+    color: #003049;
+    margin: 1em;
+    border: 2px solid #eae2b7;
+    border-radius: 10px;
+    line-height: 1.5em;
+}
+.connect-title {
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+/*(iPhone)*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 3) {
+h1 {
+    font-size: 30px;
+    flex:  50%
+}
+h2.banner {
+    font-size: 30px;
+    font-weight: 800;
+}
+.site-name-banner {
+    flex: 50%;
+    height: auto;
+    font-size: 22px;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+.social {
+    font-size: 10px;
+    flex: 80%;
+    margin-top: 8em;
+    margin-left: -15em;
+    margin-right: 10px;
+    padding-bottom: 1px;
+}
+.nav {
+    margin-top: 1em;
+}
+.logo {
+    width: 300px;
+    flex: 1;
+}
+.search {
+    margin-right: 4em;
+    margin-left: -3em;
+    padding-top: 2em;
+}
+.connect-title {
+    font-size: 14px;
+}
+.connect-1 {
+    flex: 48%;
+    width: 10em;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 4px;
+    padding: 0;
+}
+.connect-2 {
+    flex: 48%;
+    flex-wrap: wrap;
+    flex: 48%;
+    width: 10em;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 4px;
+    padding: 0;
+} 
+}
+/*iPad*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+h1 {
+    font-size: 30px;
+    flex:  50%
+}
+h2.banner {
+    font-size: px;
+    font-weight: 800;
+}
+.site-name-banner {
+    flex: 50%;
+    font-size: 30px;
+    padding-bottom: 3em;
+    padding-left: 8em;
+    padding-right: 6em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.social {
+    font-size: 10px;
+    flex: 80%;
+    margin-top: 8em;
+    margin-left: -15em;
+    padding-bottom: 1px;;
+}
+.logo {
+    width: 300px;
+    height: auto;
+}
+.connect-title {
+    font-size: 14px;
+}
+.search {
+    margin-right: 4em;
+    margin-left: -4em;
+}
+.connect-1 {
+    flex: 48%;
+    width: 10em;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 4px;
+    padding: 0;
+}
+.connect-2 {
+    flex: 48%;
+    flex-wrap: wrap;
+    flex: 48%;
+    width: 10em;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 4px;
+    padding: 0;
+} 
+}
+
+/* media query for events display block */

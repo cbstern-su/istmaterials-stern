@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Syracuse Jews Shabbat</title>
+
+    <!-- custom CSS link should follow BS4 CSS link so you can overwrite them rather than the reverse
+    <link rel="stylesheet" href="sj-style.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8b7e33323a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- moved down from above -->
+    <link rel="stylesheet" href="sj-style.css">
+</head>
+<body>
+<header style="display: flex; width: 100%; height: 150px; background: #ccc;">
+    <div style="flex: 1; padding: 1em;">
+        <img src="./images/sj-logo.png" alt="Syracuse Jews logo" style="width: 200px;">
+    </div>
+    <div class="site-name-banner" style="flex: 2;"><!-- added container div for layout purposes -->
+        <!-- Site name needs to follow in the DOM after elements above & left of it -->
+        <p class="site-name" style="font-size: 40px; font-weight:700; font-size: 80px; text-align: center; text-shadow: 2px 2px 2px#f77f00;">Syracuse Jews</p>
+        <!-- Also h1 should be in content area, not header, and state page topic -->
+    </div>
+    <!--<div class="search">
+        <input />
+        <div class="search-btn" style="display: inline-block;">
+         <i class="fa fa-search"></i>
+         </div>
+    </div>--> 
+    <div class="social">
+        <a href="https://www.instagram.com/syracusejews/" target="_blank"><i class="fab fa-instagram" style="font-size:2em;"></i></a>&nbsp;&nbsp;
+        <a href="mailto:info@syracusejews.com"><i class="far fa-envelope" style="font-size: 2em;"></i></a>
+    </div>
+</header>
+<!--<nav>
+    <ul class="nav">
+    <li class="nav"><a href="sj-home-talley.html"><i class="fa fa-home" style="color: #eae2b7;
+        background-color: transparent;"></i></a></li>
+    <li class="nav"><a href="sj-events.html">Events</a></li>
+    <li class="nav"><a href="sj-shabbat.html">Shabbat</a></li>
+    </ul> 
+</nav>-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" style="background-color:#003049; padding-top: 2em; padding-bottom: 2em;" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!-- <li class="nav-item active"> removing extra li tag and moving .active to the right page on line 60 -->
+        <li class="nav-item">
+          <a class="nav-link" style="padding-left: 10em; padding-right: 10em; background-color:#003049; color: #eae2b7" href="sj-home-talley.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="padding-right: 10em; background-color:#003049; color: #eae2b7" href="sj-events.html">Events</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" style="background-color:#003049; color: #eae2b7" href="sj-shabbat.html">Shabbat</a>
+        </li>
+      </ul><!-- adding missing /ul opened on line 52 -->
+      <form class="form-inline my-2 my-lg-0" style="padding-left: 15em; background-color:#003049">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" style="color: #eae2b7; border: 1px solid #eae2b7" type="submit">Search</button>
+      </form>
+    </div>
+</nav>
+<main>
+    <!--<div class="bg-image-3">
+        <div class="bg-text-3">
+            <h1 class="banner">Syracuse Jews &mdash; Shabbat Menus</h1>
+        </div>
+    </div>-->
+    <div class="jumbotron-3">
+        <h2 class="display-4" style="background-color: transparent; color: whitesmoke; font-weight: 700; padding-top: 1em;">Syracuse Jews &mdash; Shabbat</h2>
+        <p class="lead" style="background-color: transparent; color: whitesmoke; font-weight: 500;">For A Delicious Shabbat Meal Every Friday</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" style="background-color: #f77f00; border: 1px solid #f77f00; margin-left: 2em;" href="https://www.flow.page/syracusejews" target="_blank" targetrole="button">Order Here</a>
+    </div>
+    <section>
+        <h2 style="margin-top: 1em; font-size: 40px;">On Friday Nights...</h2>
+        <p>In light of recent circumstances in the COVID-19 climate on campus, Syracuse Jews is now bringing the festive Shabbat meals to you. Our Shabbat-To-Go meal packs are stocked full with everything you need to make your Friday night a special celebration. Be sure to place an order and stop by before sundown every Friday for some delicious food to enjoy in the safety of your own home!</p>
+    </section>
+    <h3 style="margin-left: 4em; margin-top: 4em;">What's Cooking This Week?</h3>
+            <h4 style="margin-left: 4em; margin-top: 4em;">September 25</h4>
+            <div class="row" style="margin-left: 4em; margin-bottom: 4em; display: inline;">
+                <div class="col-6 col-xs-12" style="margin-left: 4em; margin-bottom: 4em;">
+                <div class="col-4">
+                    <div class="list-group" role="tablist">
+                        <a class="list-group-item list-group-item-action active bg-secondary" id="app-1" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#app-1-list" role="tab" aria-controls="app-1">Appetizers</a>
+                        <a class="list-group-item list-group-item-action bg-secondary" id="entree-1" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#entree-1-list" role="tab" aria-controls="entree-1">Entrée</a>
+                        <a class="list-group-item list-group-item-action bg-secondary" id="dessert-1" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#dessert-1-list" role="tab" aria-controls="dessert-1">Dessert</a>
+                     </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="app-1-list" role="tabpanel" aria-labelledby="app-1-list">
+                        <ul>
+                            <li>Matzah Ball Soup</li>
+                            <li>Summer Kale Salad</li>
+                        </ul>
+                        </div>
+                        <div class="tab-pane fade" id="entree-1-list" role="tabpanel" aria-labelledby="entree-1-list">
+                        <ul>
+                            <li>Chicken Schnitzel</li>
+                            <li>Rice Pilaf</li>
+                            <li>Roasted Vegetables</li>
+                        </ul>
+                        </div>
+                        <div class="tab-pane fade" id="dessert-1-list" role="tabpanel" aria-labelledby="dessert-1-list">
+                        <ul>
+                            <li>Dairy-Free Brownie</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <h4 style="margin-left: 4em; margin-top: 4em;">October 2</h4>
+                <div class="col-6 col-xs-12" style="margin-left: 4em; margin-bottom: 4em; display: inline-block;">
+                <div class="col-4">
+                    <div class="list-group" role="tablist">
+                        <a class="list-group-item list-group-item-action active bg-secondary" id="app-2" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#app-2-list" role="tab" aria-controls="app-2">Appetizers</a>
+                        <a class="list-group-item list-group-item-action bg-secondary" id="entree-2" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#entree-2-list" role="tab" aria-controls="entree-2">Entrée</a>
+                        <a class="list-group-item list-group-item-action bg-secondary" id="dessert-2" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#dessert-2-list" role="tab" aria-controls="dessert-2">Dessert</a>
+                     </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="app-2-list" role="tabpanel" aria-labelledby="app-2-list">
+                        <ul>
+                            <li>Matzah Ball Soup</li>
+                            <li>Homemade Hummus</li>
+                        </ul>
+                        </div>
+                        <div class="tab-pane fade" id="entree-2-list" role="tabpanel" aria-labelledby="entree-2-list">
+                        <ul>
+                            <li>Rosemary Lemon Chicken</li>
+                            <li>Potato Kugel</li>
+                            <li>Quinoa</li>
+                        </ul>
+                        </div>
+                        <div class="tab-pane fade" id="dessert-2-list" role="tabpanel" aria-labelledby="dessert-2-list">
+                        <ul>
+                            <li>Babka Twist</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        <h4 style="margin-left: 4em; margin-top: 4em;">October 9</h4>    
+            <div class="col-6 col-xs-12" style="margin-left: 4em; margin-bottom: 4em; display: inline-block;">
+                <div class="col-4">
+                    <div class="list-group" role="tablist">
+                        <a class="list-group-item list-group-item-action active bg-secondary" id="app-3" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#app-3-list" role="tab" aria-controls="app-3">Appetizers</a>
+                        <a class="list-group-item list-group-item-action bg-secondary" id="entree-3" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#entree-3-list" role="tab" aria-controls="entree-3">Entrée</a>
+                        <a class="list-group-item list-group-item-action bg-secondary" id="dessert-3" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#dessert-3-list" role="tab" aria-controls="dessert-3">Dessert</a>
+                     </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="app-3-list" role="tabpanel" aria-labelledby="app-3-list">
+                        <ul>
+                            <li>Matzah Ball Soup</li>
+                            <li>Caesar Salad</li>
+                        </ul>
+                        </div>
+                        <div class="tab-pane fade" id="entree-3-list" role="tabpanel" aria-labelledby="entree-3-list">
+                        <ul>
+                            <li>Sweet and Sour Chicken</li>
+                            <li>Roasted Green Beans</li>
+                            <li>Israeli Couscous</li>
+                        </ul>
+                        </div>
+                        <div class="tab-pane fade" id="dessert-3-list" role="tabpanel" aria-labelledby="dessert-3-list">
+                        <ul>
+                            <li>Apple Cranberry Crisp</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <h4 style="margin-left: 4em;">October 16</h4>
+                <div class="col-6 col-xs-12;" style="margin-left: 4em; margin-bottom: 4em; display: inline-block;">
+                <div class="col-4">
+                    <div class="list-group" role="tablist">
+                        <a class="list-group-item list-group-item-action active bg-secondary" id="app-4" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#app-4-list" role="tab" aria-controls="app-4">Appetizers</a>
+                        <a class="list-group-item list-group-item-action bg-secondary" id="entree-4" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#entree-4-list" role="tab" aria-controls="entree-4">Entrée</a>
+                        <a class="list-group-item list-group-item-action bg-secondary" id="dessert-4" style="border: 1px solid whitesmoke; color: whitesmoke;" data-toggle="list" href="#dessert-4-list" role="tab" aria-controls="dessert-4">Dessert</a>
+                     </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="app-4-list" role="tabpanel" aria-labelledby="app-4-list">
+                        <ul>
+                            <li>Matzah Ball Soup</li>
+                            <li>Romaine Garden Salad</li>
+                        </ul>
+                        </div>
+                        <div class="tab-pane fade" id="entree-4-list" role="tabpanel" aria-labelledby="entree-4-list">
+                        <ul>
+                            <li>BBQ Chicken</li>
+                            <li>Sweet Potato Pie</li>
+                            <li>Roasted Vegetables</li>
+                        </ul>
+                        </div>
+                        <div class="tab-pane fade" id="dessert-4-list" role="tabpanel" aria-labelledby="dessert-4-list">
+                        <ul>
+                            <li>Mini Pumpkin Muffin</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        <!--*old menu layout*
+            <div class="meals-1">
+            <h4>September 25</h4>
+            <div class="course">
+                <h5>Appetizers</h5>
+                <ul>
+                    <li>Matzah Ball Soup</li>
+                    <li>Summer Kale Salad</li>
+                </ul>
+            </div>
+            <div class="course">
+                <h5>Entrée</h5>
+                <ul>
+                    <li>Chicken Schnitzel</li>
+                    <li>Rice Pilaf</li>
+                    <li>Roasted Vegetables</li>
+                </ul>
+            </div>
+            <div class="course">
+                <h5>Dessert</h5>
+                <ul>
+                    <li>Dairy-Free Brownie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="meals-1">
+            <h4>October 2</h4>
+            <div class="course">
+                <h5>Appetizers</h5>
+                <ul>
+                    <li>Matzah Ball Soup</li>
+                    <li>Homemade Hummus</li>
+                </ul>
+            </div>
+            <div class="course">
+                <h5>Entrée</h5>
+                <ul>
+                    <li>Rosemary Lemon Chicken</li>
+                    <li>Potato Kugel</li>
+                    <li>Quinoa</li>
+                </ul>
+            </div>
+            <div class="course">
+                <h5>Dessert</h5>
+                <ul>
+                    <li>Babka Twist</li>
+                </ul>
+            </div>
+        </div>
+        <div class="meals-1">
+            <h4>October 9</h4>
+            <div class="course">
+                <h5>Appetizers</h5>
+                <ul>
+                    <li>Matzah Ball Soup</li>
+                    <li>Caesar Salad</li>
+                </ul>
+            </div>
+            <div class="course">
+                <h5>Entrée</h5>
+                <ul>
+                    <li>Sweet and Sour Chicken</li>
+                    <li>Roasted Green Beans</li>
+                    <li>Israeli Couscous</li>
+                </ul>
+            </div>
+            <div class="course">
+                <h5>Dessert</h5>
+                <ul>
+                    <li>Apple Cranberry Crisp</li>
+                </ul>
+            </div>
+        </div>
+        <div class="meals-1">
+            <h4>October 16</h4>
+            <div class="course">
+                <h5>Appetizers</h5>
+                <ul>
+                    <li>Matzah Ball Soup</li>
+                    <li>Romaine Garden Salad</li>
+                </ul>
+            </div>
+            <div class="course">
+                <h5>Entrée</h5>
+                <ul>
+                    <li>BBQ Chicken</li>
+                    <li>Sweet Potato Pie</li>
+                    <li>Roasted Vegetables</li>
+                </ul>
+            </div>
+            <div class="course">
+                <h5>Dessert</h5>
+                <ul>
+                    <li>Mini Pumpkin Muffin</li>
+                </ul>
+            </div>
+        </div> you commented out the /section tag for the section that opens on line 85. I am restoring it. -->
+    <section>
+        <div class="misc">
+            <h3>Shabbat Must-Haves</h3>
+            <p>These items will be available to you in every single Shabbat-To-Go pack to ensure you have everything you need to observe the holiday in good spirits. It's not a complete Shabbat without some of these favorites:</p>
+            <ul>
+                <li>Candles</li>
+                <li>Wine or Grape Juice</li>
+                <li>Challah Bread (plain, everything, maple, and sweet crumb flavored)</li>
+                <li>Prayer Book</li>
+                <li>Good Company</li>
+            </ul>
+        </div>
+    </section>
+    </main>
+    <aside>
+        <h3>Have a request?</h3>
+        <p>Have a food your missing from home? Interested in starting a Shabbat program? Let us know what's on your mind!</p>
+        <div class="form" style="text-align: center;">
+            <form action="mailto:info@syracusejews.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="mail">E-mail:<br></label><br>
+                <input type="text" id="mail" name="mail"><br><br>
+                <textarea rows="10" cols="30">Type comment here</textarea><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>     
+        </div>
+    </aside>
+<footer>
+    <p style="color:#eae2b7; background-color: #003049;">Syracuse Jews<br>833 Sumner Ave, Syracuse, NY 13210<br><a href="https://www.instagram.com/syracusejews/" target="_blank"><i class="fab fa-instagram" style="color:#eae2b7; background-color:#003049; font-size:x-large; margin-top:1em;"></i></a> <a href="mailto:info@syracusejews.com"><i class="far fa-envelope" style="color:#eae2b7; background-color: #003049; font-size:x-large; margin-top:1em;"></i></a></p>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>    
+</body>
+</html>
