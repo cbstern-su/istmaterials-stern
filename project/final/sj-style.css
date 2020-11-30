@@ -1,0 +1,203 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: #003049;
+    background-color: whitesmoke;
+}
+.site-name-banner {
+    font-size: 40px;
+}
+p.site-name {
+   font-weight:700; 
+   font-size: 45px; 
+   text-align: center; 
+   background-color: whitesmoke; 
+   text-shadow: 2px 2px 2px #f77f00;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+}
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+    margin: 1em;
+}
+h4 {
+    font-size: 20px;
+    padding-right: 3em;
+    margin-left: 1em;
+}
+h5 {
+    font-size: 18px;
+}
+p {
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: left;
+}
+.logo {
+   flex: 1; 
+   padding: 1em;
+}
+footer {
+    color: #eae2b7;
+    text-align: center;
+    line-height: 20px;
+    border: 10px solid #003049;
+    background-color: #003049;
+}
+p.footer {
+    text-align: center;
+}
+.search {
+    flex: 1; 
+    text-align: right; 
+    padding: 5% 0;
+}
+.social {
+    flex: 1; 
+    text-align:center; 
+    padding: 5% 0;
+}
+nav {
+    background-color:#003049;
+    width: 100%;
+    padding-bottom: 4em; 
+}
+ul.nav {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: transparent;
+}
+li.nav {
+    width: 20%;
+    float: left;
+    margin: 2.5%;
+    background-color: #003049;
+}
+.nav {
+    background-color: transparent;
+}
+a {
+    color: #eae2b7;
+    text-decoration: none;
+    background-color: transparent;
+}
+nav a:hover { 
+    color: #f77f00!important; 
+}
+
+.connect-1 a:hover { 
+    color: #f77f00; 
+    text-decoration: none;
+}
+.connect-2 a:hover { 
+    color: #f77f00; 
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.col {
+    flex: 1;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+img {
+    max-width: 60%;
+    height: auto;   
+}
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/sukkot-5.jpg");
+    opacity: 80%;
+    height: 800px;
+    width: 1200px;
+    margin-left: 8em;
+}
+.jumbotron-2 {
+    height: 683px;
+    width: 1024px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/mega-shabbat-6.jpg");
+    opacity: 80%;
+}
+.jumbotron-3 {
+    height: 683px;
+    width: 1024px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/food-2.jpg");
+    opacity: 80%;
+}
+p.lead {
+    text-align: center;
+}
+.event-type {
+    padding: 2em;
+    margin: 2em;
+    margin-bottom: 0;
+    border: 2px solid #eae2b7;
+    border-radius: 10px;
+}
+.misc {
+    border: 2px solid #003049;
+    border-radius: 10px;
+    background-color: #003049;
+    margin: 2em;  
+    padding-top: 1em;
+}
+.misc-text {
+    background-color: #003049;
+    text-align: left;
+    color: #eae2b7;
+}
+aside { 
+    padding: 2em;
+    text-align: center;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.aside-text {
+    color: #003049;
+    text-align: left;
+}
+.comment {
+    color: #003049;
+    text-align: left;
+}
+.connect-1, .connect-2 {
+    color: #003049;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+    border: 2px solid #eae2b7;
+    border-radius: 10px;
+    line-height: 1.5em;
+}
+.connect-title {
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.separation {
+    background-color: whitesmoke;
+    height: 2em;
+}
+
+/*(iPhone)*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 3) {
+.social {
+    font-size: 15px;
+    flex: 80%;
+}
+}
